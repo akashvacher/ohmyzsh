@@ -84,4 +84,4 @@ function mkv() {
 
 # Since pypy isn't available on Big Sur (as of 19 Dec 2020), this si the next best thing - using a disposable docker container to run pypy3
 # Suggestion taken from https://hub.docker.com/_/pypy
-alias pypy="docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp pypy:3 pypy3"
+alias pypy='docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp pypy:3 pypy3'
