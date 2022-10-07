@@ -136,3 +136,6 @@ bindkey "^[m" copy-prev-shell-word
 ## Fix weird sequence that rxvt produces
 #bindkey -s '^[[Z' '\t'
 #
+
+# Make ctrl+U behavior be the same as bash
+bindkey \^U backward-kill-line
